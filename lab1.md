@@ -1,5 +1,5 @@
 `1.` Examples running `cd` with no arguments, a directory as an argument, and a file as an argument:\
-![Image](cd)
+![Image](cd) \
 As seen in the picture, the working directory was `home` for the first 2 examples and `home/lecture1/` for the last example.\
 \
 The `cd` command is used to change directories, so the working directory is set to whatever directory is given in the argument.\
@@ -8,7 +8,7 @@ When a directory was given as an argument, the working directory was set to that
 When a file was given as an argument, an error message was given because it is expected to be given a directory name as an argument.\
 \
 `2.` Examples running `ls` with no arguments, a directory as an argument, and a file as an argument:\
-![Image](ls)
+![Image](ls) \
 As seen in the picture, the working directory was set to `home/lecture1` for all the cases.\
 \
 The `ls` command is used to list all the items in the working directory or specified directory.\
@@ -17,7 +17,7 @@ When a directory was given, all items within that directory were returned. This 
 When a file was given as an argument, only the file in the argument was returned. This is not an error because the file itself is the only thing to be listed.\
 \
 `3.` Examples running `cat` with no arguments, a directory as an argument, and a file as an argument:\
-![Image](cat)
+![Image](cat) \
 As seen in the picture, the working directory was set to lecture1 for all the cases.\
 \
 The `cat` command is used view the contents of a file. \
