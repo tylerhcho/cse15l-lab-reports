@@ -17,9 +17,9 @@ The `messages` field is then printed out.\
 # 2. SSH keys
 ![Image](lab3ss3)\
 location of key on my computer\
-![Image](lab3ss4)\
-location of key on the remote computer\
 ![Image](lab3ss5)\
+location of key on the remote computer\
+![Image](lab3ss4)\
 logging into my account without the password\
 # 3. Something I learned
 Something I learned during this lab was the process of creating an SSH key, as well as the `scp` command to copy files. I also learned how to make a directory using `mkdir`. I also learned that `cd ..` will let you cd into the directory above the current one.\
