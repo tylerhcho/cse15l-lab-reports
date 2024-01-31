@@ -7,7 +7,7 @@ For this image, the method `handleRequest` was called.\
 This method takes a `URI` parameter, which is the URL which we type into the browser window. In this case, it was `http://localhost:4000/add-message?s=Hi&user=Tyler`\
 Based on this method call, the `handleRequest` method takes the URL and identifies the User and the Message portion of the URL.\
 It then arranges them in the format `User: Message`, and then adds this to the end of the `messages` field, which in this case was `"jpolitz: Hello\n"` at the time the method was called. A line break is added as well.\
-The `messages` field is then printed out. (note: I already called the method once before I took the screenshots, which is why the `messages` field was not just `""`)\
+The `messages` field is then printed out. (note: I already called the method once before I took the screenshots, which is why the `messages` field was not just a blank String)\
 \
 ![Image](lab3ss2.png) \
 For this image, the method `handleRequest` was called again, since another URL is passed into the browser.\
