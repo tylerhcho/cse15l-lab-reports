@@ -49,22 +49,22 @@ which were overwritten, not the original values of the first half.\
 \
 # 2. Researching commands
 grep:\
-`-c` prints only a count of lines which match a pattern. This would be useful to see how often a term appears.\
+1. `-c` prints only a count of lines which match a pattern. This would be useful to see how often a term appears.\
 Input: `grep -c "passenger" chapter-1.txt`\
 Output: `40`\
 Input: `grep -c "flight" chapter-1.txt`\
 Output: `74`\
-`-h` display the matched lines, but not the file names. This would be useful to make it easier to read the output.\
+2. `-h` display the matched lines, but not the file names. This would be useful to make it easier to read the output.\
 Input: `grep -h "final conversation" chapter-1.txt`\
 Output: `It would be their final conversation.`\
 Input: `grep -h "depart at 8:00" chapter-1.txt`\
 Output: `Their flight was scheduled to depart at 8:00.`\  
-`-i` ignores case matching. This would be useful to see all instances of a word.\
+3. `-i` ignores case matching. This would be useful to see all instances of a word.\
 Input: `grep -i "finaL conVeRSatIon" chapter-1.txt`\
 Output: `It would be their final conversation.`\
 Input: `grep -i "dePArt At 8:00" chapter-1.txt`\
 Output: `Their flight was scheduled to depart at 8:00.`\  
-`-n` display the line number. This would be useful if you are looking through a long file and you want to find something.\
+4. `-n` display the line number. This would be useful if you are looking through a long file and you want to find something.\
 Input: `grep -n "final conversation" chapter-1.txt`\
 Output: `20:  It would be their final conversation.`\
 Input: `grep -n "depart at 8:00" chapter-1.txt`\
